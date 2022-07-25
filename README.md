@@ -5,6 +5,7 @@ A simple starter template using Vite & Vue v2 and Bulam plugin for v2 (aka. Buef
 # How this app was created?
 
 You can reproduce this repo using the following steps:
+
 1- Init the app:
 ```
 npm init vite@latest buefy-demo -- --template vanilla
@@ -15,7 +16,7 @@ pnpm create vite
 
 2- Install dependencies:
 ```
-npm i -D vite-plugin-vue2 vue-template-compiler
+npm i -D vite-plugin-vue2 vue-template-compiler@2.7.8
 npm i vue@2.7.8 --save
 ```
 
@@ -71,5 +72,5 @@ Create the app component `src/App.vue`:
 
 You can delete unused files (`counter.js`, `style.css`...).
 
-
+Find out more about [buefy](https://buefy.org/) for more examples.
 
